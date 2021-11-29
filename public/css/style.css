@@ -1,0 +1,50 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #191A19;
+}
+.mulish-font {
+    font-family: "Montserrat", sans-serif !important;
+}
+.bg-black-secondary {
+    background-color: #272727;
+}
+.text-yellow-special {
+    color: #F5C43C;
+}
+.bg-yellow-special {
+    background-image: linear-gradient(#FDBF05, #FB9532);
+}
+.identity-headline {
+    font-size: 13px !important;
+    /* opacity: 90%; */
+}
+.headline-name {
+    font-size: 65px !important;
+}
+.form-select:focus,
+.btn:focus,
+.form-control:focus {
+    box-shadow: 0 0px 0px 3px #f5c43c4f;
+}
+
+@media (max-width: 768px) {
+    #images-headline img:nth-child(2) {
+        width: 60%;
+    }
+    #images-headline img:nth-child(odd) {
+        width: 10%;
+    }
+    .headline-name {
+        font-size: 30px !important;
+    }
+    .identity-headline {
+        font-size: 10px !important;
+    }
+    .hello-desc {
+        font-size: 15px !important;
+    }
+    .text-footer {
+        font-size: 12px;
+    }
+}
