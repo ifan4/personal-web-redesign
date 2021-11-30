@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-black-secondary mulish-font fw-bold">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-header mulish-font fw-bold py-md-3">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="{{ asset('assets/logo-ifn.png') }}" alt="" width="30" class="d-inline-block align-text-middle">
@@ -9,11 +9,15 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <li class="nav-item me-2">
+            <a class="nav-link active" aria-current="page" href="#">
+              <i class="bi bi-house-door me-1"></i>
+              Home
+            </a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown me-2">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-list-columns me-1"></i>
               About
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -23,14 +27,23 @@
               <li><a class="dropdown-item" href="#">About Me</a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+          <li class="nav-item me-2">
+            <a class="nav-link" href="#">
+              <i class="bi bi-file-earmark-code me-1"></i>
+              Projects
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Service</a>
+          <li class="nav-item me-2">
+            <a class="nav-link" href="#">
+              <i class="bi bi-briefcase me-1"></i>
+              Service
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+          <li class="nav-item me-2">
+            <a class="nav-link" href="#">
+              <i class="bi bi-journal-album me-1"></i>
+              Blog
+            </a>
           </li>
         </ul>
       </div>
