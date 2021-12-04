@@ -26,12 +26,9 @@
     @yield('importLibraryArea')
 
     {{-- Favicon --}}
-    {{-- <link rel='icon' type='image/png' href='/favicon-surveyasia-32.png' />
-    <link rel='shortcut icon' type='image/x-icon' href='/favicon-surveyasia-32.ico' /> --}}
+    {{-- <link rel='icon' type='image/png' href='/favicon-surveyasia-32.png' /> --}}
+    <link rel="shortcut icon" href="{{ asset('assets/favicon.ico') }}" type="image/x-icon">
 
-    {{-- Font Awesome --}}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous">
-    </script>
 
 
     <title>Ifan's Web</title>

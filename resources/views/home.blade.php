@@ -368,13 +368,13 @@
         <hr class="garisTitleMiddle mx-auto">
         
         <div class="row gy-3">
-            <div class="col-lg-5">
+            <div class="col-lg-12">
                 <div class="bg-black-secondary p-4 border-r-sip">
                     <p class="text-white" style="text-align: justify">Dilahirkan dengan nama Ifana Andriansyah tetapi memiliki panggilan yang cukup banyak, antara lain ifan, epen, pandul, dan masih banyak lagi yang tidak mungkin disebutkan satu persatu disini. Merupakan anak bontot dari dua bersaudara. Dilahirkan pada 25 Mei tahun 2000 membuat saya dapat dijuluki manusia millenial, meskipun ga millenial-millenial banget si hehe. Saya Memiliki passion dalam bidang mobile app dan website development khususnya di bagian front end dengan pengalaman kurang lebih dua tahun. Serta memiliki keahlian juga dalam melakukan design graphic dan animation. Selain itu saya memiliki sidejob sebagai musisi abal-abal yang terkadang mengharuskan nge-gigs di cafe maupun wedding party. Tetapi tetap software engineer adalah darah daging yang telah menempel di tubuh saya semenjak saya masih dibuaian ibu (lebay.com). Selanjutnya saya adalah seorang freelance software developer dan graphic designer. And I'm availabe to work as a software engineer!
                     </p>
                 </div>
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-6">
                 <div class="bg-black-secondary p-4 border-r-sip text-white position-relative">
                     <h6 class="fs-5">Experience</h6>
                     @foreach ($expData as $data)
@@ -391,7 +391,13 @@
                     <hr class="line-exp">
                     @endforeach
 
-                    <h6 class="fs-5 mt-5">Education</h6>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="bg-black-secondary p-4 border-r-sip text-white position-relative">
+                
+                    <h6 class="fs-5">Education</h6>
                     @foreach ($eduData as $data)
                     <div class="d-flex py-2">
                         <div class="bungkus-img-exp">
