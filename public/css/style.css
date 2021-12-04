@@ -19,6 +19,9 @@ body {
 .bg-yellow-special {
     background-image: linear-gradient(#FDBF05, #FB9532);
 }
+.bg-blue-special {
+    background-color: #0880E1;
+}
 .identity-headline {
     font-size: 13px !important;
     /* opacity: 90%; */
@@ -34,6 +37,11 @@ body {
 .text-kecil {
     font-size: 13px !important;
 }
+.border-r-sip{
+    border-radius: 30px;
+}
+
+
 #sosmedSection .row > div > a > div {
     background-color: rgba(0, 0, 0, 0.384);
     color: white;
@@ -69,10 +77,113 @@ body {
     margin-top: -9px;
 }
 
+/* PROJECT SECTION STYLE */
 #project-section .card {
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0 4px 6px 0px #0000002f;
+    border: 0px !important;
+    height: 380px;
 }
+#project-section .card .card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+#project-section .card .btn {
+    position: absolute;
+    bottom: 15px;
+    width: 90% !important;
+}
+/* END OF PROJECT SECTION STYLE */
+
+.bungkusPrev{
+    width: 55px;
+    height: 55px;
+    margin-left: -70px;
+    background-color: #0880E1;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bungkusNext {
+    width: 55px;
+    height: 55px;
+    margin-right: -70px;
+    background-color: #0880E1;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SKILLS STYLE */
+.backgroundSkill {
+    background-color: #dbdbdb;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.namaSkill {
+color: white;
+background-color: #f89900;
+font-size: 164x;
+}
+.persentaseCol {
+height: 100%;
+background-color: #0880E1;
+}
+.contentSkills {
+display: block;
+}
+.nopadding {
+padding: 0 !important;
+margin: 0 !important;
+}
+  /* END OF SKILLS STYLE */
+
+/* PARTNERS STYLE */
+.bg-partner {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.904);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+/* END OF PARTNERS STYLE */
+
+/* ABOUT ME STYLE */
+.bungkus-img-exp {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.line-exp {
+    position: relative;
+    margin-left: -24px;
+    margin-right: -24px;
+    border-bottom: 4px  #191A19;
+    opacity: 100%;
+    
+}
+
+
+/* END OF ABOUT ME STYLE */
+
+
 
 @media (max-width: 768px) {
     #images-headline img:nth-child(2) {
@@ -92,5 +203,33 @@ body {
     }
     .text-footer {
         font-size: 12px;
+    }
+    .bungkusPrev{
+        margin-left: -50px;
+        width: 20px;
+        height: 400px;
+        border-radius: 10px;
+    }
+    .bungkusNext {
+        margin-right: -50px;
+        width: 20px;
+        height: 400px;
+        border-radius: 10px;
+    }
+    .bg-partner {
+        width: 135px;
+        height: 135px;
+        padding: 70px !important;
+    }
+    .img-partner {
+        width: 65px;
+    }
+    .bungkus-img-exp {
+        width: 90px;
+        height: 90px;
+    }
+    #about-section .contents {
+        width: 210px;
+
     }
 }

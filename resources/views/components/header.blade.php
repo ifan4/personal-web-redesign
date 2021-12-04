@@ -10,9 +10,15 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item me-2">
-            <a class="nav-link active" aria-current="page" href="#">
+            <a class="nav-link active" aria-current="page" href="#headline-section">
               <i class="bi bi-house-door me-1"></i>
               Home
+            </a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link" href="#project-section">
+              <i class="bi bi-file-earmark-code me-1"></i>
+              Projects
             </a>
           </li>
           <li class="nav-item dropdown me-2">
@@ -21,26 +27,19 @@
               About
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Skills</a></li>
-              <li><a class="dropdown-item" href="#">Clients</a></li>
-              <li><a class="dropdown-item" href="#">Partners</a></li>
-              <li><a class="dropdown-item" href="#">About Me</a></li>
+              <li><a class="dropdown-item" href="#skills-section">Skills</a></li>
+              <li><a class="dropdown-item" href="#partners-section">Partners</a></li>
+              <li><a class="dropdown-item" href="#about-section">About Me</a></li>
             </ul>
           </li>
           <li class="nav-item me-2">
-            <a class="nav-link" href="#">
-              <i class="bi bi-file-earmark-code me-1"></i>
-              Projects
-            </a>
-          </li>
-          <li class="nav-item me-2">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#" onclick="alert('on development')">
               <i class="bi bi-briefcase me-1"></i>
               Service
             </a>
           </li>
           <li class="nav-item me-2">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#" onclick="alert('on development')">
               <i class="bi bi-journal-album me-1"></i>
               Blog
             </a>
