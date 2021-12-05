@@ -32,7 +32,7 @@ body {
 .form-select:focus,
 .btn:focus,
 .form-control:focus {
-    box-shadow: 0 0px 0px 3px #f5c43c4f;
+    box-shadow: 0 0px 0px 3px #f5c43cb2;
 }
 .text-kecil {
     font-size: 13px !important;
