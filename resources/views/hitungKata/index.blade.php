@@ -1,6 +1,7 @@
 @extends('layouts.base')
 @section('script')
     <script src="js/hitung.js"></script>
+    <script src="js/paste.js"></script>
 @endsection
     
 
@@ -20,6 +21,10 @@
 
                 <div class="nopadding">
                     <label for="isi" class="form-label text-white fs-5">Masukan disini kalimat/paragraph yang ingin dihitung </label>
+                    <button class="btn btn-primary opacity-50 p-0 px-2 me-auto float-end mt-lg-2 mb-2 mb-lg-0" id="pasteBtn">
+                        <i class="bi bi-clipboard-plus"></i>
+                        Paste
+                    </button>
                     <textarea class="form-control bg-dark text-white" placeholder="input here!" id="isi" rows="5" name="isiKonten" required></textarea>
                 </div>
 

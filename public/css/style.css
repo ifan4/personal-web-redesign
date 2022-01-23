@@ -180,8 +180,14 @@ margin: 0 !important;
     
 }
 
-
 /* END OF ABOUT ME STYLE */
+
+/* HITUNG KATA STYLE */
+#form-hitung .form-select:focus,
+#form-hitung .btn:focus,
+#form-hitung .form-control:focus {
+    box-shadow: 0 0px 0px 2px #e7cf8eb2;
+}
 
 
 
