@@ -10,13 +10,15 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item me-2">
-            <a class="nav-link active" aria-current="page" href="#headline-section">
+            <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" 
+            href="{{ Request::is('feedback') ? '../' : '#headline-section' }}">
               <i class="bi bi-house-door me-1"></i>
               Home
             </a>
           </li>
           <li class="nav-item me-2">
-            <a class="nav-link" href="#project-section">
+            <a class="nav-link" 
+            href="{{ Request::is('/') ? '#project-section' : '../#project-section' }}">
               <i class="bi bi-file-earmark-code me-1"></i>
               Projects
             </a>
@@ -27,15 +29,27 @@
               About
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#skills-section">Skills</a></li>
-              <li><a class="dropdown-item" href="#partners-section">Partners</a></li>
-              <li><a class="dropdown-item" href="#about-section">About Me</a></li>
+              <li><a class="dropdown-item" 
+                href="{{ Request::is('/') ? '#skills-section' : '../#skills-section' }}">Skills</a>
+              </li>
+              <li><a class="dropdown-item" 
+                href="{{ Request::is('/') ? '#partners-section' : '../#partners-section' }}">Partners</a>
+              </li>
+              <li><a class="dropdown-item" 
+                href="{{ Request::is('/') ? '#about-section' : '../#about-section' }}">About Me</a>
+              </li>
             </ul>
           </li>
           <li class="nav-item me-2">
             <a class="nav-link" href="#" onclick="alert('on development')">
               <i class="bi bi-briefcase me-1"></i>
               Service
+            </a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link {{ Request::is('feedback') ? 'active' : '' }}" href="/feedback">
+              <i class="bi bi-chat-square-text me-1"></i>
+              Feedback
             </a>
           </li>
           <li class="nav-item me-2">

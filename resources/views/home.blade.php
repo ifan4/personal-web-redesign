@@ -20,7 +20,7 @@
                     <br>
                     <span style="color: #FCA61F"> Ifana Andriansyah </span>
                 </div>
-                <p class="identity-headline fw-light mb-3 mb-md-4">Front End Engineer intern at PT. Citi Asia International, Part Time Informatics Teacher at Sman 2 Kota Serang, Freelance Software Engineer & Student At Universitas Pendidikan Indonesia.</p>
+                <p class="identity-headline fw-light mb-3 mb-md-4">Front End Engineer intern at Tokocrypto & PT. Citi Asia International, Part Time Informatics Teacher at Sman 2 Kota Serang, Freelance Software Engineer & Student At Universitas Pendidikan Indonesia.</p>
 
                 <p class="hello-desc fs-4">
                     Selamat datang di website pribadi Ifana Andriansyah, disini anda akan mendapatkan informasi portofolio milik Ifana Andriansyah dengan mudah dan friendly.
@@ -311,9 +311,16 @@
         <?php
             $expData = [
             [
+                "jobTitle" => "Frontend Developer",
+                "companyName" => "Tokocrypto",
+                "time" => "Februari 2022 - present",
+                "img" => "tokocrypto.png",
+                "desc" => ""
+            ],
+            [
                 "jobTitle" => "Frontend Programmer",
                 "companyName" => "PT. Citi Asia International",
-                "time" => "Agu 2021 - present",
+                "time" => "Agu 2021 - Februari 2022",
                 "img" => "citiasia-logo.png",
                 "desc" => ""
             ],
@@ -331,13 +338,13 @@
                 "img" => "smanda-logo.png",
                 "desc" => ""
             ],
-            [
-                "jobTitle" => "Content Designer",
-                "companyName" => "Freelancee",
-                "time" => "Nov 2019 - present",
-                "img" => "ifn-logo.png",
-                "desc" => ""
-            ]
+            // [
+            //     "jobTitle" => "Content Creator",
+            //     "companyName" => "Freelancee",
+            //     "time" => "Nov 2019 - present",
+            //     "img" => "ifn-logo.png",
+            //     "desc" => ""
+            // ]
             ];
 
             $eduData = [

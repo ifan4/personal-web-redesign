@@ -188,7 +188,17 @@ margin: 0 !important;
 #form-hitung .form-control:focus {
     box-shadow: 0 0px 0px 2px #e7cf8eb2;
 }
+/* END HITUNG KATA STYLE */
 
+/* FEEDBACK STYLE */
+#feedback-section #highlight {
+    font-size: 62px;
+    display: block;
+}
+#submit-feedback:hover {
+    background-image: linear-gradient(#ffbf00, #ff8205);
+    color: black;
+}
 
 
 @media (max-width: 768px) {
@@ -236,6 +246,9 @@ margin: 0 !important;
     }
     #about-section .contents {
         width: 210px;
-
+    }
+    #feedback-section #highlight {
+        font-size: 45px;
+        display: block;
     }
 }

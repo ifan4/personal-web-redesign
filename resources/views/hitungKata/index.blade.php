@@ -21,10 +21,16 @@
 
                 <div class="nopadding">
                     <label for="isi" class="form-label text-white fs-5">Masukan disini kalimat/paragraph yang ingin dihitung </label>
-                    <button class="btn btn-primary opacity-50 p-0 px-2 me-auto float-end mt-lg-2 mb-2 mb-lg-0" id="pasteBtn">
-                        <i class="bi bi-clipboard-plus"></i>
-                        Paste
-                    </button>
+                    <div class="me-auto float-end">
+                        <button id="copyBtn" class="btn btn-primary opacity-50 p-0 px-2 mt-lg-2 mb-2 mb-lg-0" type="button"  data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Berhasil copy!">
+                            <i class="bi bi-clipboard"></i>
+                            Copy
+                        </button>
+                        <button class="btn btn-primary opacity-50 p-0 px-2 mt-lg-2 mb-2 mb-lg-0" id="pasteBtn" type="button"  data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Berhasil PASTE!">
+                            <i class="bi bi-clipboard-plus"></i>
+                            Paste
+                        </button>
+                    </div>
                     <textarea class="form-control bg-dark text-white" placeholder="input here!" id="isi" rows="5" name="isiKonten" required></textarea>
                 </div>
 

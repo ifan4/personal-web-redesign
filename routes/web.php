@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\feedbackController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,5 @@ Route::get('/', function () {
 Route::get('/hitungKata', function () {
     return view('hitungKata/index');
 });
+Route::get('/feedback', [FeedbackController::class, 'index']);
+Route::post('/feedback/store', [FeedbackController::class, 'store']);
