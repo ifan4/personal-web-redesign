@@ -1,0 +1,60 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sidebar-admin {
+    box-shadow: -5px 0px 12px 1px #181818b2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 235px;
+    height: 100%;
+    z-index: 999;
+    overflow-x: hidden;
+    transition: all 0.5s ease;
+}
+
+#sidebar-admin .nav-link {
+    color: #24282c;
+    font-size: 20px;
+    padding: 14px 25px;
+    line-height: 19px;
+    margin-bottom: 5px;
+}
+
+#sidebar-admin .nav-link:hover {
+    color: whitesmoke;
+    background-color: #24282c;
+}
+#sidebar-admin .active {
+    color: #24282c;
+    background-color: #F6F4F4;
+    border-right: 5px solid black;
+}
+#sidebar-admin .active > a > i {
+    font-weight: inherit;
+}
+#sidebar-admin.hide-sidebar {
+    width: 0px;
+}
+
+#main {
+    margin-left: 230px; /* Same as the width of the sidebar */
+    margin-top: 85px;
+    padding: 0px 10px;
+    transition: all 0.5s ease;
+}
+
+#navbar-admin {
+    margin-left: 235px; /* Same as the width of the sidebar */
+    z-index: 1;
+    box-shadow: 6px -5px 8px 1px #000000;
+    transition: all 0.5s ease;
+}
+#navbar-admin.syncNavbar {
+    margin-left: 0; /* Same as the width of the sidebar */
+}
+#main.syncMain {
+    margin-left: 0px; /* Same as the width of the sidebar */
+}
+

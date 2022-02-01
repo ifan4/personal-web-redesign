@@ -1,0 +1,10 @@
+.card-var {
+    background-color: rgba(47, 154, 253, 0.3);
+    border-radius: 10px;
+}
+.titleCard {
+    color: #31499E;
+}
+#admin-home .bi {
+    font-size: 27px;
+}

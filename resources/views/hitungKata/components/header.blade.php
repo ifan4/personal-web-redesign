@@ -16,6 +16,12 @@
             </a>
           </li>
           <li class="nav-item me-2">
+            <a class="nav-link" href="../feedback">
+              <i class="bi bi-chat-square-text me-1"></i>
+              Feedback
+            </a>
+          </li>
+          <li class="nav-item me-2">
             <a class="nav-link" href="#" onclick="alert('on development')">
               <i class="bi bi-journal-album me-1"></i>
               Blog

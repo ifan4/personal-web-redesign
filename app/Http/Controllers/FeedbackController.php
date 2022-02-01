@@ -17,9 +17,9 @@ class FeedbackController extends Controller
     public function store(Request $request)
     {
         $dataValidasi = $request->validate([
-            'name' => 'required',
+            'name' => 'required|max:50',
             'email' => 'required',
-            'feedback' => 'required|max:200'
+            'feedback' => 'required|min:10'
         ]);
 
         Feedback::create($dataValidasi);
